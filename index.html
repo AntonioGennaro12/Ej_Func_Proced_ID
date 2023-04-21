@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(232, 228, 238);
+    }
+    button {
+      box-sizing: border-box;
+      background-color: #0e4ae2c1; /* Color de fondo */
+      border: 5px 120px solid #e7090982; /* Quita el borde */
+      color: white; /* Color de texto */
+      padding: 20px ; /* Espacio alrededor del texto */
+      text-align: center; /* Centra el texto */
+      text-decoration: none; /* Quita la subrayado del texto */
+      display: inline-block; /* Muestra el botón como un elemento de bloque */
+      font-size: 20px; /* Tamaño de fuente */
+      border-radius: 18px; /* Radio de borde para hacer el botón redondeado */
+      width: 400px;
+    }
+</style>
+<body>
+<label><span style="padding-left: 10px;"></span>Ingrese Operando N°1: </label>
+<input type="number" style="text-align:center ;width:160px ;background-color: rgb(234, 242, 241);"  id="numero1">
+<br><br>
+<label><span style="padding-left: 10px;"><span></span>Tipo de Operación [ + - * / % p r ]</label>
+<input type="text" style="text-align:center ;width:10px ;background-color: rgb(240, 222, 238);" maxlength="3" id="operacion"> 
+<br><br> 
+<label><span style="padding-left: 10px;"></span>Ingrese Operando N°2: </label>
+<input type="number" style="text-align:center ;width:160px ;background-color: rgb(229, 225, 219);" id="numero2">
+<br><br>
+<button id= "mi-boton"> Calcular Resultado </button>
+<br><br>
+<button id= "result"> Resultado* </button>
+<p><span style="padding-left: 6px;"></span>(*) Click en "Resultado" y copia contenido a Operando N° 1</p>
+<script src="ejercfuncprod.js"></script>
+</body>
+</html>
